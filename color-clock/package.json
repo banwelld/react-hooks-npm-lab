@@ -1,0 +1,19 @@
+{
+  "name": "color-clock",
+  "version": "1.0.0",
+  "description": "A clock... With colors",
+  "main": "index.js",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "esbuild": "^0.23.0",
+    "regenerator-runtime": "^0.14.1",
+    "serve": "^14.2.3"
+  },
+  "scripts": {
+    "test": "echo 'Hello World!'",
+    "start": "serve",
+    "build": "esbuild index.js --bundle --outfile=dist/out.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
